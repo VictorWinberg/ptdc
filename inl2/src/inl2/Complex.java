@@ -9,11 +9,11 @@ public class Complex {
 		this.re = re;
 		this.im = im;
 	}
-	/** Tar reda p√• realdelen */
+	/** Tar reda på realdelen */
 	double getRe() { return re; }
-	/** Tar reda p√• imagin√§rdelen */
+	/** Tar reda på imagin√§rdelen */
 	double getIm() { return im; }
-	/** Tar reda p√• talets absolutbelopp i kvadrat */
+	/** Tar reda på talets absolutbelopp i kvadrat */
 	double getAbs2() { return re * re + im * im; }
 	
 	/** Adderar det komplexa talet c till detta tal */

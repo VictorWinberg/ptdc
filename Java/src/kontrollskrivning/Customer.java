@@ -8,6 +8,6 @@ public class Customer {
 	public Customer (String name) { 
 		this.name = name;
 	}
-	/** Tar reda pÃ¥ kundens namn */
+	/** Tar reda pŒ kundens namn */
 	String getName() { return name; }
 }

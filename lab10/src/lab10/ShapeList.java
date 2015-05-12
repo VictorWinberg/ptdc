@@ -24,8 +24,8 @@ public class ShapeList {
 		}
 	}
 	
-	/** Tar reda på en figur som ligger nära punkten xc,yc (null om ingen
-		sådan figur finns i listan */
+	/** Tar reda p� en figur som ligger nära punkten xc,yc (null om ingen
+		s�dan figur finns i listan */
 	public Shape findHit(int xc, int yc) {
 		for(Shape shape : shapes) {
 			if(shape.near(xc, yc))

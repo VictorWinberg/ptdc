@@ -4,7 +4,7 @@ import se.lth.cs.window.SimpleWindow;
 
 public class Finish {
 
-	/** Skapar flera Checkers-objekt i rött och svart för att f√• en disko-effekt. */
+	/** Skapar flera Checkers-objekt i rött och svart för att få en disko-effekt. */
 	public Finish(SimpleWindow w, int le) {
 		while (true) {
 			new Checkers(w, 1, le, Color.BLACK);

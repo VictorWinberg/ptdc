@@ -6,7 +6,7 @@ public class Bid {
 	private int amount;
 	private Customer bidder;
 	
-	/** Skapar ett budobjekt. Budet gäller stugan med nummer houseId, är på
+	/** Skapar ett budobjekt. Budet gäller stugan med nummer houseId, är p�
 	amount kronor och är lagt av kunden bidder */
 	public Bid(int houseId, int amount, Customer bidder) {
 		this.houseId = houseId;
@@ -14,13 +14,13 @@ public class Bid {
 		this.bidder = bidder;
 	}
 	
-	/** Tar reda på stugans idnummer */
+	/** Tar reda p� stugans idnummer */
 	int getId() { return houseId; }
 	
-	/** Tar reda på budets storlek (i kronor) */
+	/** Tar reda p� budets storlek (i kronor) */
 	int getAmount() { return amount; }
 	
-	/** Tar reda på kunden som lagt detta bud */
+	/** Tar reda p� kunden som lagt detta bud */
 	Customer getBidder() { return bidder; }
 	
 	/** Returnerar skillnaden mellan detta bud och budet b (i kronor). Resultatet

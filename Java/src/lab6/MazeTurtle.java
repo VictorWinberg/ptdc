@@ -10,8 +10,8 @@ public class MazeTurtle extends Turtle{
 		super(w, x, y);
 	}
 
-	/** L책ter sk쉕dpaddan vandra genom labyrinten maze, fr책n
-	 * ing책ngen till utg책ngen */
+	/** L똳er sk쉕dpaddan vandra genom labyrinten maze, fr똭
+	 * ing똭gen till utg똭gen */
 	public void walk(Maze maze) {
 		jumpTo(maze.getXEntry(), maze.getYEntry());
 		penDown();

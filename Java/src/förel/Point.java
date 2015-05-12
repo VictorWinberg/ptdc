@@ -8,12 +8,12 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-	/** Tar reda pÃ¥ x-koordinaten */
+	/** Tar reda pŒ x-koordinaten */
 	public int getX() { return x; }
-	/** Tar reda pÃ¥ y-koordinaten */
+	/** Tar reda pŒ y-koordinaten */
 	public int getY() { return y; }
 	
-	/** Flyttar punkten avstÃ¥ndet dx i x-led,
+	/** Flyttar punkten avstŒndet dx i x-led,
 	dy i y-led */
 	public void move(int dx, int dy) {
 		x += dx;

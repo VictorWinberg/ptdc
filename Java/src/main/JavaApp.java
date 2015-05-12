@@ -9,7 +9,7 @@ public class JavaApp {
 		String name = s.nextLine();
 		System.out.println("OCH ÅLDER!");
 		int age = s.nextInt();
-		System.out.println(name + " du är " + Gammal(age) + " om 10 år");
+		System.out.println(name + " du är " + Gammal(age) + " om 10 �r");
 		s.close();
 	}
 	

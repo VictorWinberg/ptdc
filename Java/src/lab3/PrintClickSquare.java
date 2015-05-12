@@ -13,7 +13,7 @@ public class PrintClickSquare {
 			w.waitForMouseClick();
 			int newX = w.getMouseX();
 			int newY = w.getMouseY();
-			System.out.println("Avst√•nd i x-led: " + (newX - oldX) + ", "
+			System.out.println("Avstånd i x-led: " + (newX - oldX) + ", "
 					+ "i y-led: " + (newY - oldY));
 			sq.move(newX - oldX, newY - oldY);
 			sq.draw(w);

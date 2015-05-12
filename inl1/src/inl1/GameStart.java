@@ -3,7 +3,7 @@ import se.lth.cs.window.SimpleWindow;
 
 public class GameStart {
 
-	/** Visar en starttext som v√§ntar p√• spelarens musklick 
+	/** Visar en starttext som v√§ntar på spelarens musklick 
 	 * @param w SimpleWindowfönstret
 	 * @param s starttexten */
 	public GameStart(SimpleWindow w, String s) {
