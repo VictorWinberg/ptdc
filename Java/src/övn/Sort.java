@@ -1,4 +1,4 @@
-package švn;
+package Ã¶vn;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package švn;
+package Ã¶vn;
 
 import se.lth.cs.window.SimpleWindow;
 

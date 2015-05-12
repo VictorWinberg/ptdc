@@ -1,6 +1,6 @@
 package extra;
 
-import förel.Polygon;
+import f√∂rel.Polygon;
 import se.lth.cs.window.SimpleWindow;
 
 public class PolyConnection {

@@ -8,14 +8,14 @@ public class QuessNumber {
 	
 	public static void main(String[] args) {
 		int number = (int) (Math.random() * 10001);
-		print("Jag tÃ¤nker pŒ ett tal mellan 1 och 10000 - gissa vilket.");
+		print("Jag tÃ¤nker pÃ¥ ett tal mellan 1 och 10000 - gissa vilket.");
 		int tries = 0;
 		Scanner scan = new Scanner(System.in);
 		while(true) {
 			int guess = scan.nextInt();
-			if(guess > number) print("Fšr stort, fšrsšk igen!");
-			else if(guess < number) print("Fšr litet, fšrsšk igen!");
-			else { print("RÃ¤tt pŒ " + tries + " fšrsšk!"); break; }
+			if(guess > number) print("FÃ¶r stort, fÃ¶rsÃ¶k igen!");
+			else if(guess < number) print("FÃ¶r litet, fÃ¶rsÃ¶k igen!");
+			else { print("RÃ¤tt pÃ¥ " + tries + " fÃ¶rsÃ¶k!"); break; }
 			tries++;
 		}
 		scan.close();

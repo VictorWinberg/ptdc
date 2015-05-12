@@ -1,4 +1,4 @@
-package fšrel;
+package fÃ¶rel;
 
 public class Point {
 	private int x,y;
@@ -8,12 +8,12 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-	/** Tar reda pŒ x-koordinaten */
+	/** Tar reda pï¿½ x-koordinaten */
 	public int getX() { return x; }
-	/** Tar reda pŒ y-koordinaten */
+	/** Tar reda pï¿½ y-koordinaten */
 	public int getY() { return y; }
 	
-	/** Flyttar punkten avstŒndet dx i x-led,
+	/** Flyttar punkten avstï¿½ndet dx i x-led,
 	dy i y-led */
 	public void move(int dx, int dy) {
 		x += dx;

@@ -6,5 +6,5 @@ object ScalaApp extends App {
   println("OCH ÅLDER!")
   val age = readInt()
   def gammal(i: Int) = i + 10
-  println(name + " du är " + gammal(age) + " om 10 �r")
+  println(name + " du är " + gammal(age) + " om 10 år")
 }
