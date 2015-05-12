@@ -1,4 +1,4 @@
-package f√∂rel;
+package förel;
 
 import se.lth.cs.window.SimpleWindow;
 

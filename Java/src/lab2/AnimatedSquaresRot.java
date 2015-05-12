@@ -5,7 +5,7 @@ import se.lth.cs.window.SimpleWindow;
 
 public class AnimatedSquaresRot {
 	public static void main(String[] args) {
-		System.out.println("Skriv f√∂rminskning och rotation");
+		System.out.println("Skriv förminskning och rotation");
 		Scanner scan = new Scanner(System.in);
 		int dim = scan.nextInt();
 		int rot = scan.nextInt();

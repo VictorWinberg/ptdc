@@ -11,7 +11,7 @@ public class SmallBidExample {
 		} else {
 			highest = b2;
 		}
-		System.out.println("Högsta budet är " + highest.getAmount()
+		System.out.println("H�gsta budet är " + highest.getAmount()
 				+ " och budgivare är " + highest.getBidder().getName());
 	}
 }

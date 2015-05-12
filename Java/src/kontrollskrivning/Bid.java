@@ -24,6 +24,6 @@ public class Bid {
 	Customer getBidder() { return bidder; }
 	
 	/** Returnerar skillnaden mellan detta bud och budet b (i kronor). Resultatet
-	ska bli ett positivt tal om detta bud är högre än budet b */
+	ska bli ett positivt tal om detta bud är h�gre än budet b */
 	int getDifference(Bid b) { return this.amount - b.amount; }
 }

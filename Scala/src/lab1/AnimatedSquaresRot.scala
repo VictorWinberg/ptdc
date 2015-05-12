@@ -4,7 +4,7 @@ import se.lth.cs.window.SimpleWindow
 import se.lth.cs.ptdc.square.Square
 
 object AnimatedSquaresRot extends App {
-  println("Skriv f√∂rstorning")
+  println("Skriv förstorning")
   val dim = readInt()
   println("Skriv roteringsgrad")
   val rot = readInt()

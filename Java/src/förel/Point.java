@@ -1,4 +1,4 @@
-package fÃ¶rel;
+package fšrel;
 
 public class Point {
 	private int x,y;

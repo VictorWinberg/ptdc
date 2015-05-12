@@ -1,4 +1,4 @@
-package f√∂rel;
+package förel;
 
 import java.awt.Color;
 import java.util.ArrayList;

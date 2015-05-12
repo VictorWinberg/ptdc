@@ -4,8 +4,8 @@ import se.lth.cs.window.SimpleWindow;
 
 public class Checkers {
 
-	/** Skapar ett schackm√∂nster
-	 * @param startY y-positionen schackm√∂nstert startar */
+	/** Skapar ett schackmönster
+	 * @param startY y-positionen schackmönstert startar */
 	public Checkers(SimpleWindow w, int startY, int le, Color col) {
 		for (int x = 1; x <= 36; x++) {
 			for (int y = startY * 2; y < 2 * startY + 3; y++) {

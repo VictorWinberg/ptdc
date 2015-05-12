@@ -10,7 +10,7 @@ import java.util.Random;
 public class CardDeck {
 	
 	private Card[] cards; // korten
-	private int current = 0; // index för "nästa" kort
+	private int current = 0; // index f�r "nästa" kort
 	private static Random rand = new Random();
 	
 	/**
@@ -42,7 +42,7 @@ public class CardDeck {
 	}
 
 	/**
-	 * Undersöker om det finns fler kort i kortleken.
+	 * Unders�ker om det finns fler kort i kortleken.
 	 * 
 	 * @return true om det finns fler kort, false annars
 	 */
@@ -51,9 +51,9 @@ public class CardDeck {
 	}
 
 	/**
-	 * Drar det översta kortet i leken. Fungerar bara om moreCards är true.
+	 * Drar det �versta kortet i leken. Fungerar bara om moreCards är true.
 	 * 
-	 * @return det översta kortet i leken
+	 * @return det �versta kortet i leken
 	 */
 	public Card getCard() {
 		if(moreCards()) {

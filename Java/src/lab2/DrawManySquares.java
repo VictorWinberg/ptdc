@@ -5,7 +5,7 @@ import se.lth.cs.window.SimpleWindow;
 
 public class DrawManySquares {
 	public static void main(String[] args) {
-		System.out.println("Skriv f√∂rminskning");
+		System.out.println("Skriv förminskning");
 		Scanner scan = new Scanner(System.in);
 		int dim = scan.nextInt();
 		scan.close();

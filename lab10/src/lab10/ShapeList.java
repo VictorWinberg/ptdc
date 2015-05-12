@@ -17,7 +17,7 @@ public class ShapeList {
 		shapes.add(s);
 	}
 	
-	/** Ritar upp figurerna i listan i fÃ¶nstret w */
+	/** Ritar upp figurerna i listan i fšnstret w */
 	public void draw(SimpleWindow w) {
 		for(Shape shape : shapes) {
 			shape.draw(w);

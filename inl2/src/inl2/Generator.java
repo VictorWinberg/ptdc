@@ -5,7 +5,7 @@ import se.lth.cs.ptdc.fractal.MandelbrotGUI;
 
 public class Generator {
 
-	/** Ritar en bild i fönstret i användargränssnittet gui */
+	/** Ritar en bild i f�nstret i användargränssnittet gui */
 	public void render(MandelbrotGUI gui) {
 		gui.disableInput();
 		int pixelSize = 1;

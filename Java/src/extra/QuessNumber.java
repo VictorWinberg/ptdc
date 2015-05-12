@@ -13,9 +13,9 @@ public class QuessNumber {
 		Scanner scan = new Scanner(System.in);
 		while(true) {
 			int guess = scan.nextInt();
-			if(guess > number) print("FÃ¶r stort, fÃ¶rsÃ¶k igen!");
-			else if(guess < number) print("FÃ¶r litet, fÃ¶rsÃ¶k igen!");
-			else { print("RÃ¤tt pÃ¥ " + tries + " fÃ¶rsÃ¶k!"); break; }
+			if(guess > number) print("Fšr stort, fšrsšk igen!");
+			else if(guess < number) print("Fšr litet, fšrsšk igen!");
+			else { print("RÃ¤tt pÃ¥ " + tries + " fšrsšk!"); break; }
 			tries++;
 		}
 		scan.close();

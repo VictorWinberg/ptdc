@@ -4,7 +4,7 @@ import se.lth.cs.window.SimpleWindow;
 public class GameStart {
 
 	/** Visar en starttext som väntar på spelarens musklick 
-	 * @param w SimpleWindowfönstret
+	 * @param w SimpleWindowf�nstret
 	 * @param s starttexten */
 	public GameStart(SimpleWindow w, String s) {
 		w.moveTo(w.getWidth() / 2 - 50, w.getWidth() / 2);

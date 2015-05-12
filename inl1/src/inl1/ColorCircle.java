@@ -8,7 +8,7 @@ public class ColorCircle {
 	private Color color;
 	
 	/** Beskriver en ifylld cirkel med färg.
-	 * @param w SimpleWindowfönstret som används
+	 * @param w SimpleWindowf�nstret som används
 	 * @param x positionen i x-led
 	 * @param y positionen i y-led
 	 * @param radius cirkelns radie
