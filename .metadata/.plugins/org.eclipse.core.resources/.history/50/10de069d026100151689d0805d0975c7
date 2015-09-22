@@ -1,0 +1,14 @@
+package mvc;
+
+import javax.swing.JButton;
+
+public class App {
+
+	public static void main(String[] args) {
+		Model model = new Model();
+		View view = new View(model);
+		Control control = new Control(model, view);
+		new JButton("Hej");
+	}
+
+}

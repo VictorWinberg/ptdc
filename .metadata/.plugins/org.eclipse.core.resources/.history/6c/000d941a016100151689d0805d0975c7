@@ -1,0 +1,5 @@
+package mvc;
+
+public class View extends JButton implements Observer{
+
+}

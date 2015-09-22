@@ -1,0 +1,22 @@
+package mvc;
+
+import java.util.Observable;
+import java.util.Observer;
+
+import javax.swing.JButton;
+
+public class View extends JButton implements Observer{
+	private Model model;
+	
+	public View() {
+		super(model.isOn() ? "ON": "OFF");
+	}
+	
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

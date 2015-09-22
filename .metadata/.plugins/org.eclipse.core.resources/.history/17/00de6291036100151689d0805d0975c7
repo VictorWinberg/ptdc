@@ -1,0 +1,15 @@
+package extra;
+
+import java.awt.Color;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import se.lth.cs.window.SimpleWindow;
+
+public class Clock {
+
+	public static void main(String[] args) {
+		Calendar cal = new GregorianCalendar();
+		new JFrame();
+	}
+}

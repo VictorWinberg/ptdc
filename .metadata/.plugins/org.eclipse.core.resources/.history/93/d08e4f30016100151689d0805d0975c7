@@ -1,0 +1,11 @@
+package mvc;
+
+import java.util.Observer;
+
+import javax.swing.JButton;
+
+public class View extends JButton implements Observer{
+	private Model model;
+	
+	
+}
