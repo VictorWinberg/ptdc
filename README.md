@@ -1,2 +1,2 @@
 # ptdc
-Programmeringsteknik
+Programmeringsteknik för D, LTH
